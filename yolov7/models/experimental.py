@@ -2,10 +2,6 @@ import numpy as np
 import random
 import torch
 import torch.nn as nn
-import os
-import sys
-
-sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
 
 from yolov7.models.common import Conv, DWConv
 from yolov7.utils.google_utils import attempt_download

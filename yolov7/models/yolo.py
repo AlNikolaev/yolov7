@@ -1,11 +1,8 @@
 import argparse
 import logging
-import sys
 from copy import deepcopy
 
-sys.path.append('./')  # to run '$ python *.py' files in subdirectories
 logger = logging.getLogger(__name__)
-import torch
 from yolov7.models.common import *
 from yolov7.models.experimental import *
 from yolov7.utils.autoanchor import check_anchor_order
